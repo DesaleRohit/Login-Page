@@ -42,13 +42,62 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:hint="Mobile Number or Email"
-                android:background="@drawable/edit_text"
+                android:background="@drawable/edit_text2"
                 android:layout_marginTop="40dp"
                 android:drawableLeft="@drawable/mobile_number"
                 android:drawablePadding="8dp"
                 android:padding="8dp"
+                android:textColor="@color/black"
+                />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Full Name"
+                android:background="@drawable/edit_text2"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/name_circle"
+                android:drawablePadding="8dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:id="@+id/username"
+                android:drawableLeft="@drawable/account_circle"
+                android:drawablePadding="8dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:hint="Username"
+                android:layout_marginBottom="20dp"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"
+                />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text2"
+                android:id="@+id/password"
+                android:drawableLeft="@drawable/lock_circle"
+                android:drawablePadding="8dp"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:hint="Password"
+                android:textColorHighlight="@color/cardview_dark_background"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Log In"
+                android:id="@+id/btn"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/blue"
                 />
 
         </LinearLayout>
